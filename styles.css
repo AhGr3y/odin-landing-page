@@ -13,14 +13,10 @@ a {
 }
 
 .top-section {
-    padding: 14px 250px;
-}
-
-.top-section {
     display: flex;
     flex-direction: column;
     height: 450px;
-    padding-bottom: 50px;
+    padding: 14px 250px 50px 250px;
 }
 
 .top-section,
@@ -32,16 +28,18 @@ a {
     font-size: 18px;
 }
 
-.top-section .header {
+.header {
     display: flex;
     flex-shrink: 0;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 
 .top-section .header-links {
     display: flex;
     flex-shrink: 0;
     gap: 16px;
+    min-width: 412px;
 }
 
 .header-links a:hover {
@@ -51,6 +49,8 @@ a {
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
+    min-width: 138px;
+    margin-right: auto;
 }
 
 .intro {
@@ -70,6 +70,7 @@ a {
 
 .intro-left {
     flex: 1;
+    min-width: 285px;
 }
 
 .intro-left p {
@@ -82,6 +83,7 @@ a {
     height: 250px;
     text-align: center;
     line-height: 250px;
+    min-width: 290px;
 }
 
 .sign-up-button {
@@ -101,7 +103,9 @@ a {
 }
 
 .content {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 50px 300px 100px 300px;
 }
 
@@ -110,11 +114,14 @@ a {
     color: #1F2937;
     font-weight: 900;
     margin-bottom: 40px;
+    min-width: 415px;
 }
 
 .content-info-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
 }
 
 .content-info {
@@ -122,6 +129,11 @@ a {
     flex-direction: column;
     align-items: center;
     gap: 12px;
+}
+
+.content-info p {
+    width: 180px;
+    text-align: center;
 }
 
 .content-info-img {
@@ -132,22 +144,27 @@ a {
 }
 
 .quotes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #E5E7EB;
     padding: 100px 300px 100px 300px;
+    min-width: 430px;
 }
 
 .quote-text {
     font-style: italic;
     font-size: 32px;
     color: #1F2937;
-    min-width: 400px;
+    min-width: 200px;
+    align-self: center;
 }
 
 .quote-author {
     font-size: 28px;
     font-weight: 800;
-    text-align: end;
     margin-top: 8px;
+    align-self: flex-end;
 }
 
 .sign-up-section {
