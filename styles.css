@@ -12,9 +12,7 @@ a {
     text-decoration: none;
 }
 
-.top-section,
-.sign-up-section,
-.footer {
+.top-section {
     padding: 14px 250px;
 }
 
@@ -142,6 +140,7 @@ a {
     font-style: italic;
     font-size: 32px;
     color: #1F2937;
+    min-width: 400px;
 }
 
 .quote-author {
@@ -149,4 +148,49 @@ a {
     font-weight: 800;
     text-align: end;
     margin-top: 8px;
+}
+
+.sign-up-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 250px;
+}
+
+.sign-up-container {
+    background-color: #3882F6;
+    color: white;
+    padding: 50px;
+    border-radius: 15px;
+    flex: 1;
+    display: flex;
+    min-width: 430px;
+}
+
+.sign-up-texts {
+    flex: 1;
+}
+
+.sign-up-title {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.sign-up-button {
+    border-color: white;
+    border-style: solid;
+    min-width: 90px;
+    max-height: 40px;
+}
+
+.sign-up-container button:hover {
+    background-color: #0052d5;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 14px 100px;
 }
