@@ -143,6 +143,10 @@ a {
     border-radius: 20px;
 }
 
+.content-info div:hover {
+    border-color: #0052d5;
+}
+
 .quotes {
     display: flex;
     flex-direction: column;
@@ -200,7 +204,7 @@ a {
     max-height: 40px;
 }
 
-.sign-up-container button:hover {
+ button:hover {
     background-color: #0052d5;
 }
 
