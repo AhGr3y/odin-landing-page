@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top-section,
+.content,
+.quotes,
+.sign-up-section,
+.footer {
+    padding: 12px 250px;
+}
+
+.top-section {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    padding-bottom: 50px;
+}
+
+.top-section,
+.header-links a,
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-family: Roboto, serif;
+    font-size: 18px;
+}
+
+.top-section .header {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-between;
+}
+
+.top-section .header-links {
+    display: flex;
+    flex-shrink: 0;
+    gap: 16px;
+}
+
+.header-links a:hover {
+    color: grey;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.intro {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.intro-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+
+.intro-left {
+    flex: 1;
+}
+
+.intro-left p {
+    margin-bottom: 14px;
+}
+
+.intro .image {
+    flex: 1;
+    background-color: rgb(99, 96, 134);
+    height: 250px;
+    text-align: center;
+    line-height: 250px;
+}
+
+.sign-up-button {
+    color: #FFFFFF;
+    padding: 5px 20px;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.intro-left .sign-up-button {
+    border-style: none;
+}
+
+.sign-up-button,
+.sign-up-secion {
+    background-color: #3882F6;
+}
+
+.quotes {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
